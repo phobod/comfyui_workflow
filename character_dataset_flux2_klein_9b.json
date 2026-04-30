@@ -1153,7 +1153,7 @@
         "Node name for S&R": "CLIPLoader",
         "models": [
           {
-            "name": "qwen_3_8b_fp8mixed.safetensors",
+            "name": "qwen_3_8b.safetensors",
             "url": "https://huggingface.co/Comfy-Org/vae-text-encorder-for-flux-klein-9b/resolve/main/split_files/text_encoders/qwen_3_8b.safetensors",
             "directory": "text_encoders"
           }
