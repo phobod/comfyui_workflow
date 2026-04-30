@@ -1153,8 +1153,8 @@
         "Node name for S&R": "CLIPLoader",
         "models": [
           {
-            "name": "qwen_3_8b.safetensors",
-            "url": "https://huggingface.co/Comfy-Org/vae-text-encorder-for-flux-klein-9b/resolve/main/split_files/text_encoders/qwen_3_8b.safetensors",
+            "name": "qwen_3_8b_fp8mixed.safetensors",
+            "url": "https://huggingface.co/Comfy-Org/vae-text-encorder-for-flux-klein-9b/resolve/main/split_files/text_encoders/qwen_3_8b_fp8mixed.safetensors",
             "directory": "text_encoders"
           }
         ],
@@ -1172,7 +1172,7 @@
         }
       },
       "widgets_values": [
-        "qwen_3_8b.safetensors",
+        "qwen_3_8b_fp8mixed.safetensors",
         "flux2",
         "default"
       ],
@@ -2742,8 +2742,8 @@
         "Node name for S&R": "UNETLoader",
         "models": [
           {
-            "name": "flux-2-klein-9b.safetensors",
-            "url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-9B/resolve/main/flux-2-klein-9b.safetensors",
+            "name": "flux-2-klein-9b-fp8.safetensors",
+            "url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-9b-fp8/resolve/main/flux-2-klein-9b-fp8.safetensors",
             "directory": "diffusion_models"
           }
         ],
@@ -2761,7 +2761,7 @@
         }
       },
       "widgets_values": [
-        "flux-2-klein-9b.safetensors",
+        "flux-2-klein-9b-fp8.safetensors",
         "default"
       ],
       "color": "#223",
