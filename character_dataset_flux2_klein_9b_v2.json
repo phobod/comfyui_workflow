@@ -1940,14 +1940,7 @@
         "ver": "2.5.24",
         "Node name for S&R": "SeedVR2LoadDiTModel",
         "aux_id": "numz/ComfyUI-SeedVR2_VideoUpscaler",
-        "models": [
-          {
-            "name": "seedvr2_ema_7b_fp8_e4m3fn.safetensors",
-            "url": "https://huggingface.co/numz/SeedVR2_comfyUI/resolve/main/seedvr2_ema_7b_fp8_e4m3fn.safetensors",
-            "directory": "diffusion_models"
-          }
-        ],
-          "ue_properties": {
+        "ue_properties": {
           "widget_ue_connectable": {},
           "version": "7.8",
           "input_ue_unconnectable": {}
@@ -2001,13 +1994,6 @@
         "ver": "2.5.24",
         "Node name for S&R": "SeedVR2LoadVAEModel",
         "aux_id": "numz/ComfyUI-SeedVR2_VideoUpscaler",
-        "models": [
-          {
-            "name": "ema_vae_fp16.safetensors",
-            "url": "https://huggingface.co/numz/SeedVR2_comfyUI/resolve/main/ema_vae_fp16.safetensors",
-            "directory": "vae"
-          }
-        ],
         "ue_properties": {
           "widget_ue_connectable": {},
           "version": "7.8",
