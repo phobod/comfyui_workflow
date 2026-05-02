@@ -1,8 +1,8 @@
 {
-  "id": "0796af31-138d-4636-9a48-4393a2055be6",
+  "id": "a59c524d-68ba-4423-b40c-b820b9d442d4",
   "revision": 0,
-  "last_node_id": 336,
-  "last_link_id": 548,
+  "last_node_id": 338,
+  "last_link_id": 551,
   "nodes": [
     {
       "id": 156,
@@ -49,56 +49,6 @@
       ]
     },
     {
-      "id": 249,
-      "type": "DF_Text",
-      "pos": [
-        -1448.4684986022226,
-        771.8040443686882
-      ],
-      "size": [
-        270,
-        60
-      ],
-      "flags": {
-        "collapsed": false
-      },
-      "order": 1,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            373
-          ]
-        }
-      ],
-      "title": "Dataset",
-      "properties": {
-        "cnr_id": "derfuu_comfyui_moddednodes",
-        "ver": "1.0.1",
-        "Node name for S&R": "DF_Text",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "input_ue_unconnectable": {},
-          "version": "7.6.2"
-        },
-        "enableTabs": false,
-        "tabWidth": 65,
-        "tabXOffset": 10,
-        "hasSecondTab": false,
-        "secondTabText": "Send Back",
-        "secondTabOffset": 80,
-        "secondTabWidth": 65
-      },
-      "widgets_values": [
-        "dataset"
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
-    },
-    {
       "id": 168,
       "type": "PreviewImage",
       "pos": [
@@ -110,7 +60,7 @@
         965
       ],
       "flags": {},
-      "order": 54,
+      "order": 56,
       "mode": 0,
       "inputs": [
         {
@@ -146,7 +96,7 @@
         46
       ],
       "flags": {},
-      "order": 51,
+      "order": 53,
       "mode": 0,
       "inputs": [
         {
@@ -202,7 +152,7 @@
         318
       ],
       "flags": {},
-      "order": 55,
+      "order": 57,
       "mode": 0,
       "inputs": [
         {
@@ -270,56 +220,6 @@
       ]
     },
     {
-      "id": 253,
-      "type": "DF_Text",
-      "pos": [
-        2078.065073034854,
-        511.3747836935155
-      ],
-      "size": [
-        270,
-        60
-      ],
-      "flags": {
-        "collapsed": true
-      },
-      "order": 2,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            380
-          ]
-        }
-      ],
-      "title": "suffix",
-      "properties": {
-        "cnr_id": "derfuu_comfyui_moddednodes",
-        "ver": "1.0.1",
-        "Node name for S&R": "DF_Text",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "input_ue_unconnectable": {},
-          "version": "7.6.2"
-        },
-        "enableTabs": false,
-        "tabWidth": 65,
-        "tabXOffset": 10,
-        "hasSecondTab": false,
-        "secondTabText": "Send Back",
-        "secondTabOffset": 80,
-        "secondTabWidth": 65
-      },
-      "widgets_values": [
-        "close_up"
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
-    },
-    {
       "id": 301,
       "type": "PreviewImage",
       "pos": [
@@ -331,8 +231,8 @@
         965
       ],
       "flags": {},
-      "order": 53,
-      "mode": 0,
+      "order": 55,
+      "mode": 4,
       "inputs": [
         {
           "name": "images",
@@ -367,8 +267,8 @@
         318
       ],
       "flags": {},
-      "order": 52,
-      "mode": 0,
+      "order": 54,
+      "mode": 4,
       "inputs": [
         {
           "name": "images",
@@ -395,7 +295,7 @@
           "widget": {
             "name": "path"
           },
-          "link": 546
+          "link": 551
         }
       ],
       "outputs": [
@@ -446,8 +346,8 @@
         110
       ],
       "flags": {},
-      "order": 3,
-      "mode": 0,
+      "order": 1,
+      "mode": 4,
       "inputs": [],
       "outputs": [
         {
@@ -481,6 +381,11 @@
             "name": "flux2_dev_fp8mixed.safetensors",
             "url": "https://huggingface.co/Comfy-Org/flux2-dev/resolve/main/split_files/diffusion_models/flux2_dev_fp8mixed.safetensors",
             "directory": "diffusion_models"
+          },
+          {
+            "name": "flux2_dev_fp8mixed.safetensors",
+            "url": "https://huggingface.co/Comfy-Org/flux2-dev/resolve/main/split_files/diffusion_models/flux2_dev_fp8mixed.safetensors",
+            "directory": "diffusion_models"
           }
         ]
       },
@@ -501,8 +406,8 @@
         360
       ],
       "flags": {},
-      "order": 28,
-      "mode": 0,
+      "order": 29,
+      "mode": 4,
       "inputs": [
         {
           "name": "clip",
@@ -564,8 +469,8 @@
         110
       ],
       "flags": {},
-      "order": 39,
-      "mode": 0,
+      "order": 41,
+      "mode": 4,
       "inputs": [
         {
           "name": "conditioning",
@@ -620,8 +525,8 @@
       "flags": {
         "collapsed": false
       },
-      "order": 36,
-      "mode": 0,
+      "order": 38,
+      "mode": 4,
       "inputs": [
         {
           "name": "pixels",
@@ -674,8 +579,8 @@
         110
       ],
       "flags": {},
-      "order": 4,
-      "mode": 0,
+      "order": 2,
+      "mode": 4,
       "inputs": [],
       "outputs": [
         {
@@ -721,8 +626,8 @@
         130
       ],
       "flags": {},
-      "order": 27,
-      "mode": 0,
+      "order": 28,
+      "mode": 4,
       "inputs": [
         {
           "name": "on_false",
@@ -786,8 +691,8 @@
         110
       ],
       "flags": {},
-      "order": 5,
-      "mode": 0,
+      "order": 3,
+      "mode": 4,
       "inputs": [],
       "outputs": [
         {
@@ -833,8 +738,8 @@
         170
       ],
       "flags": {},
-      "order": 26,
-      "mode": 0,
+      "order": 27,
+      "mode": 4,
       "inputs": [
         {
           "name": "width",
@@ -897,8 +802,8 @@
         170
       ],
       "flags": {},
-      "order": 38,
-      "mode": 0,
+      "order": 40,
+      "mode": 4,
       "inputs": [
         {
           "name": "steps",
@@ -969,8 +874,8 @@
         82
       ],
       "flags": {},
-      "order": 6,
-      "mode": 0,
+      "order": 4,
+      "mode": 4,
       "inputs": [],
       "outputs": [
         {
@@ -1013,8 +918,8 @@
         82
       ],
       "flags": {},
-      "order": 7,
-      "mode": 0,
+      "order": 5,
+      "mode": 4,
       "inputs": [],
       "outputs": [
         {
@@ -1057,8 +962,8 @@
         100
       ],
       "flags": {},
-      "order": 50,
-      "mode": 0,
+      "order": 52,
+      "mode": 4,
       "inputs": [
         {
           "name": "samples",
@@ -1113,8 +1018,8 @@
         110
       ],
       "flags": {},
-      "order": 8,
-      "mode": 0,
+      "order": 6,
+      "mode": 4,
       "inputs": [],
       "outputs": [
         {
@@ -1159,8 +1064,8 @@
         100
       ],
       "flags": {},
-      "order": 46,
-      "mode": 0,
+      "order": 48,
+      "mode": 4,
       "inputs": [
         {
           "name": "model",
@@ -1214,8 +1119,8 @@
         110
       ],
       "flags": {},
-      "order": 9,
-      "mode": 0,
+      "order": 7,
+      "mode": 4,
       "inputs": [],
       "outputs": [
         {
@@ -1259,8 +1164,8 @@
         170
       ],
       "flags": {},
-      "order": 48,
-      "mode": 0,
+      "order": 50,
+      "mode": 4,
       "inputs": [
         {
           "name": "noise",
@@ -1334,8 +1239,8 @@
         110
       ],
       "flags": {},
-      "order": 10,
-      "mode": 0,
+      "order": 8,
+      "mode": 4,
       "inputs": [],
       "outputs": [
         {
@@ -1388,8 +1293,8 @@
         150
       ],
       "flags": {},
-      "order": 11,
-      "mode": 0,
+      "order": 9,
+      "mode": 4,
       "inputs": [],
       "outputs": [
         {
@@ -1418,14 +1323,19 @@
         "secondTabWidth": 65,
         "models": [
           {
-            "name": "mistral_3_small_flux2_fp8.safetensors",
-            "url": "https://huggingface.co/Comfy-Org/flux2-dev/resolve/main/split_files/text_encoders/mistral_3_small_flux2_fp8.safetensors",
+            "name": "mistral_3_small_flux2_bf16.safetensors",
+            "url": "https://huggingface.co/Comfy-Org/flux2-dev/resolve/main/split_files/text_encoders/mistral_3_small_flux2_bf16.safetensors",
+            "directory": "text_encoders"
+          },
+          {
+            "name": "mistral_3_small_flux2_bf16.safetensors",
+            "url": "https://huggingface.co/Comfy-Org/flux2-dev/resolve/main/split_files/text_encoders/mistral_3_small_flux2_bf16.safetensors",
             "directory": "text_encoders"
           }
         ]
       },
       "widgets_values": [
-        "mistral_3_small_flux2_fp8.safetensors",
+        "mistral_3_small_flux2_bf16.safetensors",
         "flux2",
         "default"
       ]
@@ -1442,8 +1352,8 @@
         130
       ],
       "flags": {},
-      "order": 37,
-      "mode": 0,
+      "order": 39,
+      "mode": 4,
       "inputs": [
         {
           "name": "on_false",
@@ -1507,8 +1417,8 @@
         140
       ],
       "flags": {},
-      "order": 25,
-      "mode": 0,
+      "order": 26,
+      "mode": 4,
       "inputs": [
         {
           "name": "model",
@@ -1566,8 +1476,8 @@
         100
       ],
       "flags": {},
-      "order": 12,
-      "mode": 0,
+      "order": 10,
+      "mode": 4,
       "inputs": [],
       "outputs": [
         {
@@ -1613,7 +1523,7 @@
         1018.7130902846168
       ],
       "flags": {},
-      "order": 13,
+      "order": 11,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1671,8 +1581,8 @@
         100
       ],
       "flags": {},
-      "order": 43,
-      "mode": 0,
+      "order": 45,
+      "mode": 4,
       "inputs": [
         {
           "name": "conditioning",
@@ -1726,7 +1636,7 @@
         106
       ],
       "flags": {},
-      "order": 14,
+      "order": 12,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1780,7 +1690,7 @@
         82
       ],
       "flags": {},
-      "order": 15,
+      "order": 13,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1798,8 +1708,8 @@
         "Node name for S&R": "UNETLoader",
         "models": [
           {
-            "name": "flux-2-klein-9b.safetensors",
-            "url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-9B/resolve/main/flux-2-klein-9b.safetensors",
+            "name": "flux-2-klein-base-9b.safetensors",
+            "url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-base-9B/resolve/main/flux-2-klein-base-9b.safetensors",
             "directory": "diffusion_models"
           }
         ],
@@ -1817,7 +1727,7 @@
         }
       },
       "widgets_values": [
-        "flux-2-klein-9b.safetensors",
+        "flux-2-klein-base-9b.safetensors",
         "default"
       ]
     },
@@ -1833,7 +1743,7 @@
         326.00000000000006
       ],
       "flags": {},
-      "order": 49,
+      "order": 51,
       "mode": 0,
       "inputs": [
         {
@@ -1900,7 +1810,7 @@
         82
       ],
       "flags": {},
-      "order": 16,
+      "order": 14,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1939,7 +1849,7 @@
         98
       ],
       "flags": {},
-      "order": 47,
+      "order": 49,
       "mode": 0,
       "inputs": [
         {
@@ -1995,7 +1905,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 42,
+      "order": 44,
       "mode": 0,
       "inputs": [
         {
@@ -2043,7 +1953,7 @@
         26
       ],
       "flags": {},
-      "order": 40,
+      "order": 42,
       "mode": 0,
       "inputs": [
         {
@@ -2087,7 +1997,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 44,
+      "order": 46,
       "mode": 0,
       "inputs": [
         {
@@ -2135,7 +2045,7 @@
         320
       ],
       "flags": {},
-      "order": 29,
+      "order": 30,
       "mode": 0,
       "inputs": [
         {
@@ -2201,7 +2111,7 @@
         46
       ],
       "flags": {},
-      "order": 35,
+      "order": 37,
       "mode": 0,
       "inputs": [
         {
@@ -2250,7 +2160,7 @@
         106
       ],
       "flags": {},
-      "order": 31,
+      "order": 32,
       "mode": 0,
       "inputs": [
         {
@@ -2310,7 +2220,7 @@
         106
       ],
       "flags": {},
-      "order": 30,
+      "order": 31,
       "mode": 0,
       "inputs": [
         {
@@ -2370,7 +2280,7 @@
         82
       ],
       "flags": {},
-      "order": 17,
+      "order": 15,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2414,7 +2324,7 @@
         82
       ],
       "flags": {},
-      "order": 18,
+      "order": 16,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2458,7 +2368,7 @@
         75.28136325397872
       ],
       "flags": {},
-      "order": 19,
+      "order": 17,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2496,7 +2406,7 @@
         154
       ],
       "flags": {},
-      "order": 45,
+      "order": 47,
       "mode": 0,
       "inputs": [
         {
@@ -2545,7 +2455,7 @@
         150
       ],
       "flags": {},
-      "order": 41,
+      "order": 43,
       "mode": 0,
       "inputs": [
         {
@@ -2649,56 +2559,6 @@
       "bgcolor": "#353"
     },
     {
-      "id": 251,
-      "type": "DF_Text",
-      "pos": [
-        -1455.0617261518817,
-        640.169349320653
-      ],
-      "size": [
-        260,
-        60
-      ],
-      "flags": {},
-      "order": 20,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            374,
-            377,
-            545
-          ]
-        }
-      ],
-      "title": "Character Name",
-      "properties": {
-        "cnr_id": "derfuu_comfyui_moddednodes",
-        "ver": "1.0.1",
-        "Node name for S&R": "DF_Text",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "input_ue_unconnectable": {},
-          "version": "7.6.2"
-        },
-        "enableTabs": false,
-        "tabWidth": 65,
-        "tabXOffset": 10,
-        "hasSecondTab": false,
-        "secondTabText": "Send Back",
-        "secondTabOffset": 80,
-        "secondTabWidth": 65
-      },
-      "widgets_values": [
-        "emma"
-      ],
-      "color": "#3db7c7",
-      "bgcolor": "#29a3b3"
-    },
-    {
       "id": 307,
       "type": "DF_Text",
       "pos": [
@@ -2712,8 +2572,8 @@
       "flags": {
         "collapsed": true
       },
-      "order": 21,
-      "mode": 0,
+      "order": 18,
+      "mode": 4,
       "inputs": [],
       "outputs": [
         {
@@ -2763,7 +2623,7 @@
         "collapsed": true
       },
       "order": 34,
-      "mode": 0,
+      "mode": 4,
       "inputs": [
         {
           "name": "string1",
@@ -2811,69 +2671,6 @@
       "bgcolor": "#353"
     },
     {
-      "id": 250,
-      "type": "JoinStrings",
-      "pos": [
-        -1440.9112848763586,
-        906.9414781404109
-      ],
-      "size": [
-        270,
-        80
-      ],
-      "flags": {
-        "collapsed": true
-      },
-      "order": 32,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "string1",
-          "shape": 7,
-          "type": "STRING",
-          "link": 374
-        },
-        {
-          "name": "string2",
-          "shape": 7,
-          "type": "STRING",
-          "link": 373
-        }
-      ],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            375,
-            546
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui-kjnodes",
-        "ver": "1.2.9",
-        "Node name for S&R": "JoinStrings",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "input_ue_unconnectable": {},
-          "version": "7.6.2"
-        },
-        "enableTabs": false,
-        "tabWidth": 65,
-        "tabXOffset": 10,
-        "hasSecondTab": false,
-        "secondTabText": "Send Back",
-        "secondTabOffset": 80,
-        "secondTabWidth": 65
-      },
-      "widgets_values": [
-        "_"
-      ],
-      "color": "#232",
-      "bgcolor": "#353"
-    },
-    {
       "id": 157,
       "type": "ImageScaleToTotalPixels",
       "pos": [
@@ -2885,7 +2682,7 @@
         106
       ],
       "flags": {},
-      "order": 24,
+      "order": 25,
       "mode": 0,
       "inputs": [
         {
@@ -2939,7 +2736,7 @@
         58
       ],
       "flags": {},
-      "order": 22,
+      "order": 19,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2981,6 +2778,331 @@
       ]
     },
     {
+      "id": 253,
+      "type": "DF_Text",
+      "pos": [
+        1909.832757424919,
+        465.2465673216898
+      ],
+      "size": [
+        270,
+        60
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 20,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            380
+          ]
+        }
+      ],
+      "title": "suffix",
+      "properties": {
+        "cnr_id": "derfuu_comfyui_moddednodes",
+        "ver": "1.0.1",
+        "Node name for S&R": "DF_Text",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.6.2"
+        },
+        "enableTabs": false,
+        "tabWidth": 65,
+        "tabXOffset": 10,
+        "hasSecondTab": false,
+        "secondTabText": "Send Back",
+        "secondTabOffset": 80,
+        "secondTabWidth": 65
+      },
+      "widgets_values": [
+        "close_up"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 251,
+      "type": "DF_Text",
+      "pos": [
+        -1455.0617261518817,
+        640.169349320653
+      ],
+      "size": [
+        260,
+        60
+      ],
+      "flags": {},
+      "order": 21,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            374,
+            377,
+            545,
+            549
+          ]
+        }
+      ],
+      "title": "Character Name",
+      "properties": {
+        "cnr_id": "derfuu_comfyui_moddednodes",
+        "ver": "1.0.1",
+        "Node name for S&R": "DF_Text",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.6.2"
+        },
+        "enableTabs": false,
+        "tabWidth": 65,
+        "tabXOffset": 10,
+        "hasSecondTab": false,
+        "secondTabText": "Send Back",
+        "secondTabOffset": 80,
+        "secondTabWidth": 65
+      },
+      "widgets_values": [
+        "emma"
+      ],
+      "color": "#3db7c7",
+      "bgcolor": "#29a3b3"
+    },
+    {
+      "id": 250,
+      "type": "JoinStrings",
+      "pos": [
+        -1131.0521376151096,
+        771.5764503886588
+      ],
+      "size": [
+        270,
+        80
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 35,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "string1",
+          "shape": 7,
+          "type": "STRING",
+          "link": 374
+        },
+        {
+          "name": "string2",
+          "shape": 7,
+          "type": "STRING",
+          "link": 373
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            375
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-kjnodes",
+        "ver": "1.2.9",
+        "Node name for S&R": "JoinStrings",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.6.2"
+        },
+        "enableTabs": false,
+        "tabWidth": 65,
+        "tabXOffset": 10,
+        "hasSecondTab": false,
+        "secondTabText": "Send Back",
+        "secondTabOffset": 80,
+        "secondTabWidth": 65
+      },
+      "widgets_values": [
+        "_"
+      ],
+      "color": "#232",
+      "bgcolor": "#353"
+    },
+    {
+      "id": 338,
+      "type": "JoinStrings",
+      "pos": [
+        -1201.8585320971406,
+        1651.4160714187594
+      ],
+      "size": [
+        270,
+        80
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 36,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "string1",
+          "shape": 7,
+          "type": "STRING",
+          "link": 549
+        },
+        {
+          "name": "string2",
+          "shape": 7,
+          "type": "STRING",
+          "link": 550
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            551
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-kjnodes",
+        "ver": "1.2.9",
+        "Node name for S&R": "JoinStrings",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.6.2"
+        },
+        "enableTabs": false,
+        "tabWidth": 65,
+        "tabXOffset": 10,
+        "hasSecondTab": false,
+        "secondTabText": "Send Back",
+        "secondTabOffset": 80,
+        "secondTabWidth": 65
+      },
+      "widgets_values": [
+        "_"
+      ],
+      "color": "#232",
+      "bgcolor": "#353"
+    },
+    {
+      "id": 249,
+      "type": "DF_Text",
+      "pos": [
+        -1453.7562608065516,
+        766.5163789849953
+      ],
+      "size": [
+        270,
+        60
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 22,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            373
+          ]
+        }
+      ],
+      "title": "Dataset",
+      "properties": {
+        "cnr_id": "derfuu_comfyui_moddednodes",
+        "ver": "1.0.1",
+        "Node name for S&R": "DF_Text",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.6.2"
+        },
+        "enableTabs": false,
+        "tabWidth": 65,
+        "tabXOffset": 10,
+        "hasSecondTab": false,
+        "secondTabText": "Send Back",
+        "secondTabOffset": 80,
+        "secondTabWidth": 65
+      },
+      "widgets_values": [
+        "dataset_klein"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 337,
+      "type": "DF_Text",
+      "pos": [
+        -1288.5766607184385,
+        1502.3029974846427
+      ],
+      "size": [
+        270,
+        60
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 23,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            550
+          ]
+        }
+      ],
+      "title": "Dataset",
+      "properties": {
+        "cnr_id": "derfuu_comfyui_moddednodes",
+        "ver": "1.0.1",
+        "Node name for S&R": "DF_Text",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.6.2"
+        },
+        "enableTabs": false,
+        "tabWidth": 65,
+        "tabXOffset": 10,
+        "hasSecondTab": false,
+        "secondTabText": "Send Back",
+        "secondTabOffset": 80,
+        "secondTabWidth": 65
+      },
+      "widgets_values": [
+        "dataset_dev"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
       "id": 336,
       "type": "Fast Groups Bypasser (rgthree)",
       "pos": [
@@ -2992,7 +3114,7 @@
         178
       ],
       "flags": {},
-      "order": 23,
+      "order": 24,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3548,14 +3670,6 @@
       "STRING"
     ],
     [
-      546,
-      250,
-      0,
-      303,
-      3,
-      "STRING"
-    ],
-    [
       547,
       157,
       0,
@@ -3570,6 +3684,30 @@
       332,
       1,
       "VAE"
+    ],
+    [
+      549,
+      251,
+      0,
+      338,
+      0,
+      "STRING"
+    ],
+    [
+      550,
+      337,
+      0,
+      338,
+      1,
+      "STRING"
+    ],
+    [
+      551,
+      338,
+      0,
+      303,
+      3,
+      "STRING"
     ]
   ],
   "groups": [
@@ -3606,10 +3744,10 @@
     "ue_links": [],
     "links_added_by_ue": [],
     "ds": {
-      "scale": 0.6303940863128624,
+      "scale": 0.6303940863128626,
       "offset": [
-        2351.7380944344886,
-        198.59230019540698
+        1818.404014384022,
+        14.208739021588976
       ]
     }
   },
