@@ -1,8 +1,8 @@
 {
   "id": "0796af31-138d-4636-9a48-4393a2055be6",
   "revision": 0,
-  "last_node_id": 277,
-  "last_link_id": 446,
+  "last_node_id": 279,
+  "last_link_id": 452,
   "nodes": [
     {
       "id": 189,
@@ -59,7 +59,7 @@
         965
       ],
       "flags": {},
-      "order": 25,
+      "order": 23,
       "mode": 0,
       "inputs": [
         {
@@ -469,7 +469,7 @@
         106
       ],
       "flags": {},
-      "order": 14,
+      "order": 13,
       "mode": 0,
       "inputs": [
         {
@@ -560,63 +560,6 @@
       "bgcolor": "#29a3b3"
     },
     {
-      "id": 212,
-      "type": "CR Prompt List",
-      "pos": [
-        -748.791678166602,
-        337.1266965235271
-      ],
-      "size": [
-        1400.5687251723866,
-        1018.7130902846168
-      ],
-      "flags": {},
-      "order": 7,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "prompt",
-          "shape": 6,
-          "type": "STRING",
-          "links": [
-            313
-          ]
-        },
-        {
-          "name": "body_text",
-          "shape": 6,
-          "type": "STRING",
-          "links": null
-        },
-        {
-          "name": "show_help",
-          "type": "STRING",
-          "links": null
-        }
-      ],
-      "properties": {
-        "cnr_id": "ComfyUI_Comfyroll_CustomNodes",
-        "ver": "d78b780ae43fcf8c6b7c6505e6ffb4584281ceca",
-        "Node name for S&R": "CR Prompt List",
-        "aux_id": "Suzie1/ComfyUI_Comfyroll_CustomNodes",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "input_ue_unconnectable": {},
-          "version": "7.5.2"
-        }
-      },
-      "widgets_values": [
-        "",
-        "Frontal portrait, woman looking straight ahead into the distance. Neutral expression. Short blonde bob hair. Wearing a silk emerald blouse. Background: minimalist modern office. Sharp focus on skin pores, hyper-realistic, f/11. Shot on Hasselblad H6D, 100mm lens\nStrict 90-degree side profile from the right. Woman looking straight ahead, staring into distance. Very light smile. Long wavy ginger hair. Wearing a black leather jacket. Background: blurred urban street at dusk. Macro shot of skin texture, peach fuzz visible, 8k. Shot on Hasselblad H6D, 100mm lens\nStrict 90-degree side profile from the left. Woman looking straight ahead. Melancholic expression. High black ponytail. Wearing a white linen shirt. Background: sunlit forest. Sharp focus, high skin detail, no bokeh, deep depth of field. Shot on Hasselblad H6D, 100mm lens\nThree-quarter view from the right. Woman looking ahead, not at camera. Thoughtful, pensive look. Shoulder-length brown hair. Wearing a red summer dress. Background: cozy library with books. Detailed skin texture, raw photo style, f/11. Shot on Hasselblad H6D, 100mm lens\nThree-quarter view from the left. Woman looking ahead into distance. Slight resentment expression, pouted lips. Blue pixie cut hair. Wearing a grey oversized hoodie. Background: rainy city window. Hyper-detailed, visible pores, sharp focus on face. Shot on Hasselblad H6D, 100mm lens\nLow angle shot from waist level, looking up at the woman. She is looking straight ahead, head held high. Neutral expression. Blonde braided hair. Wearing a denim jacket. Background: clear blue sky and architectural pillars. Extreme detail, sharp focus. Shot on Hasselblad H6D, 100mm lens\nHigh angle shot, top-down view from above the head. Woman looking straight ahead into the distance. Slightly sad expression. Dark brown straight hair. Wearing a beige trench coat. Background: marble floor patterns. Macro skin texture, f/11. Shot on Hasselblad H6D, 100mm lens\nBack view shot, camera behind the woman. She is looking straight ahead, back of the head and side of the jaw visible. Platinum blonde hair in a bun. Wearing a backless evening dress. Background: balcony overlooking a night city. Sharp focus on hair and skin texture. Shot on Hasselblad H6D, 100mm lens",
-        "",
-        0,
-        8
-      ],
-      "color": "#222",
-      "bgcolor": "#000"
-    },
-    {
       "id": 156,
       "type": "LoadImage",
       "pos": [
@@ -628,7 +571,7 @@
         1300
       ],
       "flags": {},
-      "order": 8,
+      "order": 7,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -658,59 +601,6 @@
       "widgets_values": [
         "emma_face_FINAL_2.png",
         "image"
-      ]
-    },
-    {
-      "id": 151,
-      "type": "UNETLoader",
-      "pos": [
-        -1297.7973804856633,
-        -645.0766571051022
-      ],
-      "size": [
-        364.42708333333337,
-        82
-      ],
-      "flags": {},
-      "order": 9,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "MODEL",
-          "type": "MODEL",
-          "links": [
-            422
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.8.2",
-        "Node name for S&R": "UNETLoader",
-        "models": [
-          {
-            "name": "flux-2-klein-base-9b.safetensors",
-            "url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-base-9B/resolve/main/flux-2-klein-base-9b.safetensors",
-            "directory": "diffusion_models"
-          }
-        ],
-        "enableTabs": false,
-        "tabWidth": 65,
-        "tabXOffset": 10,
-        "hasSecondTab": false,
-        "secondTabText": "Send Back",
-        "secondTabOffset": 80,
-        "secondTabWidth": 65,
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "version": "7.8",
-          "input_ue_unconnectable": {}
-        }
-      },
-      "widgets_values": [
-        "flux-2-klein-base-9b.safetensors",
-        "default"
       ]
     },
     {
@@ -774,7 +664,7 @@
         320
       ],
       "flags": {},
-      "order": 13,
+      "order": 14,
       "mode": 0,
       "inputs": [
         {
@@ -840,7 +730,7 @@
         46
       ],
       "flags": {},
-      "order": 24,
+      "order": 22,
       "mode": 0,
       "inputs": [
         {
@@ -885,64 +775,6 @@
       "widgets_values": []
     },
     {
-      "id": 273,
-      "type": "VAEEncode",
-      "pos": [
-        690.6269850047254,
-        815.2282726569749
-      ],
-      "size": [
-        190,
-        46
-      ],
-      "flags": {
-        "collapsed": false
-      },
-      "order": 17,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "pixels",
-          "type": "IMAGE",
-          "link": 433
-        },
-        {
-          "name": "vae",
-          "type": "VAE",
-          "link": 432
-        }
-      ],
-      "outputs": [
-        {
-          "name": "LATENT",
-          "type": "LATENT",
-          "links": [
-            429,
-            430,
-            439
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.8.2",
-        "Node name for S&R": "VAEEncode",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "version": "7.8",
-          "input_ue_unconnectable": {}
-        },
-        "enableTabs": false,
-        "tabWidth": 65,
-        "tabXOffset": 10,
-        "hasSecondTab": false,
-        "secondTabText": "Send Back",
-        "secondTabOffset": 80,
-        "secondTabWidth": 65
-      },
-      "widgets_values": []
-    },
-    {
       "id": 274,
       "type": "ReferenceLatent",
       "pos": [
@@ -956,7 +788,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 18,
+      "order": 19,
       "mode": 0,
       "inputs": [
         {
@@ -1078,7 +910,7 @@
         318
       ],
       "flags": {},
-      "order": 26,
+      "order": 24,
       "mode": 0,
       "inputs": [
         {
@@ -1157,18 +989,18 @@
         286
       ],
       "flags": {},
-      "order": 23,
+      "order": 21,
       "mode": 0,
       "inputs": [
         {
           "name": "model",
           "type": "MODEL",
-          "link": 426
+          "link": 450
         },
         {
           "name": "positive",
           "type": "CONDITIONING",
-          "link": 441
+          "link": 452
         },
         {
           "name": "latent_image",
@@ -1226,7 +1058,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 19,
+      "order": 17,
       "mode": 0,
       "inputs": [
         {
@@ -1246,7 +1078,7 @@
           "name": "CONDITIONING",
           "type": "CONDITIONING",
           "links": [
-            445
+            452
           ]
         }
       ],
@@ -1270,15 +1102,73 @@
       "widgets_values": []
     },
     {
-      "id": 269,
-      "type": "IdentityGuidance",
+      "id": 273,
+      "type": "VAEEncode",
       "pos": [
-        589.7912998063998,
-        15.779077888073704
+        690.6269850047254,
+        815.2282726569749
       ],
       "size": [
-        305.4908203125,
-        150
+        190,
+        46
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 15,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "pixels",
+          "type": "IMAGE",
+          "link": 433
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 432
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            429,
+            430,
+            448
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.8.2",
+        "Node name for S&R": "VAEEncode",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        },
+        "enableTabs": false,
+        "tabWidth": 65,
+        "tabXOffset": 10,
+        "hasSecondTab": false,
+        "secondTabText": "Send Back",
+        "secondTabOffset": 80,
+        "secondTabWidth": 65
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 279,
+      "type": "IdentityFeatureTransfer",
+      "pos": [
+        974.9022954089486,
+        45.01048097044511
+      ],
+      "size": [
+        362.714453125,
+        154
       ],
       "flags": {},
       "order": 20,
@@ -1287,12 +1177,7 @@
         {
           "name": "model",
           "type": "MODEL",
-          "link": 423
-        },
-        {
-          "name": "identity_latent",
-          "type": "LATENT",
-          "link": 439
+          "link": 447
         }
       ],
       "outputs": [
@@ -1300,54 +1185,7 @@
           "name": "MODEL",
           "type": "MODEL",
           "links": [
-            424
-          ]
-        }
-      ],
-      "properties": {
-        "aux_id": "capitan01R/ComfyUI-Flux2Klein-Enhancer",
-        "ver": "7d774b9b299a626726c473bc7903edb6e3db65bb",
-        "Node name for S&R": "IdentityGuidance",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "input_ue_unconnectable": {},
-          "version": "7.8"
-        }
-      },
-      "widgets_values": [
-        0.3,
-        0,
-        0.8,
-        "adaptive"
-      ]
-    },
-    {
-      "id": 268,
-      "type": "IdentityFeatureTransfer",
-      "pos": [
-        134.95905952741657,
-        9.263956978375338
-      ],
-      "size": [
-        351.6197265625,
-        154
-      ],
-      "flags": {},
-      "order": 15,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "link": 422
-        }
-      ],
-      "outputs": [
-        {
-          "name": "MODEL",
-          "type": "MODEL",
-          "links": [
-            423
+            450
           ]
         }
       ],
@@ -1357,9 +1195,10 @@
         "Node name for S&R": "IdentityFeatureTransfer",
         "ue_properties": {
           "widget_ue_connectable": {},
-          "input_ue_unconnectable": {},
-          "version": "7.8"
-        }
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        },
+        "cnr_id": "ComfyUI-Flux2Klein-Enhancer"
       },
       "widgets_values": [
         0.15,
@@ -1370,29 +1209,29 @@
       ]
     },
     {
-      "id": 271,
-      "type": "Flux2KleinTextRefBalance",
+      "id": 278,
+      "type": "IdentityGuidance",
       "pos": [
-        1366.25492269485,
-        52.6782949610622
+        422.54683046849306,
+        52.9368774650209
       ],
       "size": [
-        301.2388671875,
-        102
+        328.8013671875,
+        150
       ],
       "flags": {},
-      "order": 22,
+      "order": 18,
       "mode": 0,
       "inputs": [
         {
           "name": "model",
           "type": "MODEL",
-          "link": 425
+          "link": 449
         },
         {
-          "name": "conditioning",
-          "type": "CONDITIONING",
-          "link": 438
+          "name": "identity_latent",
+          "type": "LATENT",
+          "link": 448
         }
       ],
       "outputs": [
@@ -1400,90 +1239,136 @@
           "name": "MODEL",
           "type": "MODEL",
           "links": [
-            426
-          ]
-        },
-        {
-          "name": "CONDITIONING",
-          "type": "CONDITIONING",
-          "links": [
-            441
+            447
           ]
         }
       ],
       "properties": {
         "aux_id": "capitan01R/ComfyUI-Flux2Klein-Enhancer",
         "ver": "7d774b9b299a626726c473bc7903edb6e3db65bb",
-        "Node name for S&R": "Flux2KleinTextRefBalance",
+        "Node name for S&R": "IdentityGuidance",
         "ue_properties": {
           "widget_ue_connectable": {},
-          "input_ue_unconnectable": {},
-          "version": "7.8"
-        }
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        },
+        "cnr_id": "ComfyUI-Flux2Klein-Enhancer"
       },
       "widgets_values": [
         0.5,
-        false
+        0,
+        0.8,
+        "adaptive"
       ]
     },
     {
-      "id": 270,
-      "type": "Flux2KleinRefLatentController",
+      "id": 212,
+      "type": "CR Prompt List",
       "pos": [
-        955.5972994468649,
-        31.53087156591359
+        -748.791678166602,
+        337.1266965235271
       ],
       "size": [
-        325.4927734375,
-        174
+        1400.5687251723866,
+        1018.7130902846168
       ],
       "flags": {},
-      "order": 21,
+      "order": 8,
       "mode": 0,
-      "inputs": [
+      "inputs": [],
+      "outputs": [
         {
-          "name": "model",
-          "type": "MODEL",
-          "link": 424
+          "name": "prompt",
+          "shape": 6,
+          "type": "STRING",
+          "links": [
+            313
+          ]
         },
         {
-          "name": "conditioning",
-          "type": "CONDITIONING",
-          "link": 445
+          "name": "body_text",
+          "shape": 6,
+          "type": "STRING",
+          "links": null
+        },
+        {
+          "name": "show_help",
+          "type": "STRING",
+          "links": null
         }
       ],
+      "properties": {
+        "cnr_id": "ComfyUI_Comfyroll_CustomNodes",
+        "ver": "d78b780ae43fcf8c6b7c6505e6ffb4584281ceca",
+        "Node name for S&R": "CR Prompt List",
+        "aux_id": "Suzie1/ComfyUI_Comfyroll_CustomNodes",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.5.2"
+        }
+      },
+      "widgets_values": [
+        "",
+        "Same woman as in the reference photo, identical identity, same facial structure, same person, do not change face, consistent facial features. Frontal portrait, woman looking straight ahead into the distance. Neutral expression. Short blonde bob hair. Wearing a silk emerald blouse. Background: minimalist modern office. Sharp focus on skin pores, hyper-realistic, f/11. Shot on Hasselblad H6D, 100mm lens.\nSame woman as in the reference photo, identical identity, same facial structure, same person, do not change face, consistent facial features. Strict 90-degree side profile from the right. Woman looking straight ahead, staring into the distance. Very light smile. Long wavy ginger hair. Wearing a black leather jacket. Background: blurred urban street at dusk. Macro shot of skin texture, peach fuzz visible, 8k. Shot on Hasselblad H6D, 100mm lens.\nSame woman as in the reference photo, identical identity, same facial structure, same person, do not change face, consistent facial features. Strict 90-degree side profile from the left. Woman looking straight ahead. Melancholic expression. High black ponytail. Wearing a white linen shirt. Background: sunlit forest. Sharp focus, high skin detail, no bokeh, deep depth of field. Shot on Hasselblad H6D, 100mm lens.\nSame woman as in the reference photo, identical identity, same facial structure, same person, do not change face, consistent facial features. Three-quarter view from the right. Woman looking ahead, not at camera. Thoughtful, pensive look. Shoulder-length brown hair. Wearing a red summer dress. Background: cozy library with books. Detailed skin texture, raw photo style, f/11. Shot on Hasselblad H6D, 100mm lens.\nSame woman as in the reference photo, identical identity, same facial structure, same person, do not change face, consistent facial features. Three-quarter view from the left. Woman looking ahead into the distance. Slight resentment expression, pouted lips. Blue pixie cut hair. Wearing a grey oversized hoodie. Background: rainy city window. Hyper-detailed, visible pores, sharp focus on face. Shot on Hasselblad H6D, 100mm lens.\nSame woman as in the reference photo, identical identity, same facial structure, same person, do not change face, consistent facial features. Low angle shot from waist level, looking up at the woman. She is looking straight ahead, head held high. Neutral expression. Blonde braided hair. Wearing a denim jacket. Background: clear blue sky and architectural pillars. Extreme detail, sharp focus. Shot on Hasselblad H6D, 100mm lens.\nSame woman as in the reference photo, identical identity, same facial structure, same person, do not change face, consistent facial features. High angle shot, top-down view from above the head. Woman looking straight ahead into the distance. Slightly sad expression. Dark brown straight hair. Wearing a beige trench coat. Background: marble floor patterns. Macro skin texture, f/11. Shot on Hasselblad H6D, 100mm lens.\nSame woman as in the reference photo, identical identity, same facial structure, same person, do not change face, consistent facial features. Back view shot, camera behind the woman. She is looking straight ahead, back of the head and side of the jaw visible. Platinum blonde hair in a bun. Wearing a backless evening dress. Background: balcony overlooking a night city. Sharp focus on hair and skin texture. Shot on Hasselblad H6D, 100mm lens.\n",
+        "",
+        0,
+        8
+      ],
+      "color": "#222",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 151,
+      "type": "UNETLoader",
+      "pos": [
+        -1297.7973804856633,
+        -645.0766571051022
+      ],
+      "size": [
+        364.42708333333337,
+        82
+      ],
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [],
       "outputs": [
         {
           "name": "MODEL",
           "type": "MODEL",
           "links": [
-            425
-          ]
-        },
-        {
-          "name": "CONDITIONING",
-          "type": "CONDITIONING",
-          "links": [
-            438
+            449
           ]
         }
       ],
       "properties": {
-        "aux_id": "capitan01R/ComfyUI-Flux2Klein-Enhancer",
-        "ver": "7d774b9b299a626726c473bc7903edb6e3db65bb",
-        "Node name for S&R": "Flux2KleinRefLatentController",
+        "cnr_id": "comfy-core",
+        "ver": "0.8.2",
+        "Node name for S&R": "UNETLoader",
+        "models": [
+          {
+            "name": "flux-2-klein-9b.safetensors",
+            "url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-9B/resolve/main/flux-2-klein-9b.safetensors",
+            "directory": "diffusion_models"
+          }
+        ],
+        "enableTabs": false,
+        "tabWidth": 65,
+        "tabXOffset": 10,
+        "hasSecondTab": false,
+        "secondTabText": "Send Back",
+        "secondTabOffset": 80,
+        "secondTabWidth": 65,
         "ue_properties": {
           "widget_ue_connectable": {},
-          "input_ue_unconnectable": {},
-          "version": "7.8"
+          "version": "7.8",
+          "input_ue_unconnectable": {}
         }
       },
       "widgets_values": [
-        1,
-        0,
-        "none",
-        0.5,
-        false
+        "flux-2-klein-9b.safetensors",
+        "default"
       ]
     }
   ],
@@ -1609,46 +1494,6 @@
       "STRING"
     ],
     [
-      422,
-      151,
-      0,
-      268,
-      0,
-      "MODEL"
-    ],
-    [
-      423,
-      268,
-      0,
-      269,
-      0,
-      "MODEL"
-    ],
-    [
-      424,
-      269,
-      0,
-      270,
-      0,
-      "MODEL"
-    ],
-    [
-      425,
-      270,
-      0,
-      271,
-      0,
-      "MODEL"
-    ],
-    [
-      426,
-      271,
-      0,
-      272,
-      0,
-      "MODEL"
-    ],
-    [
       429,
       273,
       0,
@@ -1697,30 +1542,6 @@
       "CONDITIONING"
     ],
     [
-      438,
-      270,
-      1,
-      271,
-      1,
-      "CONDITIONING"
-    ],
-    [
-      439,
-      273,
-      0,
-      269,
-      1,
-      "LATENT"
-    ],
-    [
-      441,
-      271,
-      1,
-      272,
-      1,
-      "CONDITIONING"
-    ],
-    [
       442,
       274,
       0,
@@ -1745,10 +1566,42 @@
       "LATENT"
     ],
     [
-      445,
+      447,
+      278,
+      0,
+      279,
+      0,
+      "MODEL"
+    ],
+    [
+      448,
+      273,
+      0,
+      278,
+      1,
+      "LATENT"
+    ],
+    [
+      449,
+      151,
+      0,
+      278,
+      0,
+      "MODEL"
+    ],
+    [
+      450,
+      279,
+      0,
+      272,
+      0,
+      "MODEL"
+    ],
+    [
+      452,
       275,
       0,
-      270,
+      272,
       1,
       "CONDITIONING"
     ]
@@ -1774,10 +1627,10 @@
     "ue_links": [],
     "links_added_by_ue": [],
     "ds": {
-      "scale": 0.5730855330116894,
+      "scale": 0.9229599817706563,
       "offset": [
-        1390.7590082455276,
-        919.853087114693
+        1705.662375628856,
+        1016.0698382230482
       ]
     }
   },
