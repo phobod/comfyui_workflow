@@ -1217,8 +1217,8 @@
         "Node name for S&R": "UNETLoader",
         "models": [
           {
-            "name": "flux-2-klein-base-9b.safetensors",
-            "url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-base-9B/resolve/main/flux-2-klein-base-9b.safetensors",
+            "name": "flux-2-klein-9b.safetensors",
+            "url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-9B/resolve/main/flux-2-klein-9b.safetensors",
             "directory": "diffusion_models"
           }
         ],
@@ -1236,7 +1236,7 @@
         }
       },
       "widgets_values": [
-        "flux-2-klein-base-9b.safetensors",
+        "flux-2-klein-9b.safetensors",
         "default"
       ]
     },
