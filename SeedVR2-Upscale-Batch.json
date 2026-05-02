@@ -240,7 +240,7 @@
         "Node name for S&R": "SeedVR2LoadDiTModel"
       },
       "widgets_values": [
-        "seedvr2_ema_7b-Q4_K_M.gguf",
+        "seedvr2_ema_7b_fp8_e4m3fn_mixed_block35_fp16.safetensors",
         "cuda:0",
         0,
         false,

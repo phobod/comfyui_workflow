@@ -1759,7 +1759,7 @@
         }
       },
       "widgets_values": [
-        "seedvr2_ema_7b_fp8_e4m3fn.safetensors",
+        "seedvr2_ema_7b_fp8_e4m3fn_mixed_block35_fp16.safetensors",
         "cuda:0",
         0,
         false,
@@ -2442,117 +2442,6 @@
         "secondTabWidth": 65
       },
       "widgets_values": []
-    },
-    {
-      "id": 235,
-      "type": "ImageScaleToTotalPixels",
-      "pos": [
-        -1301.92026903693,
-        731.8946630934682
-      ],
-      "size": [
-        270,
-        106
-      ],
-      "flags": {},
-      "order": 34,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "image",
-          "type": "IMAGE",
-          "link": 352
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            353,
-            354,
-            363
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.8.2",
-        "Node name for S&R": "ImageScaleToTotalPixels",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "version": "7.8",
-          "input_ue_unconnectable": {}
-        },
-        "enableTabs": false,
-        "tabWidth": 65,
-        "tabXOffset": 10,
-        "hasSecondTab": false,
-        "secondTabText": "Send Back",
-        "secondTabOffset": 80,
-        "secondTabWidth": 65
-      },
-      "widgets_values": [
-        "nearest-exact",
-        1,
-        1
-      ]
-    },
-    {
-      "id": 157,
-      "type": "ImageScaleToTotalPixels",
-      "pos": [
-        -1289.751878288752,
-        -67.96584140798045
-      ],
-      "size": [
-        270,
-        106
-      ],
-      "flags": {},
-      "order": 31,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "image",
-          "type": "IMAGE",
-          "link": 230
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            235,
-            309,
-            339,
-            368
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.8.2",
-        "Node name for S&R": "ImageScaleToTotalPixels",
-        "enableTabs": false,
-        "tabWidth": 65,
-        "tabXOffset": 10,
-        "hasSecondTab": false,
-        "secondTabText": "Send Back",
-        "secondTabOffset": 80,
-        "secondTabWidth": 65,
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "version": "7.8",
-          "input_ue_unconnectable": {}
-        }
-      },
-      "widgets_values": [
-        "nearest-exact",
-        1,
-        1
-      ]
     },
     {
       "id": 217,
@@ -3335,8 +3224,8 @@
         "Node name for S&R": "CLIPLoader",
         "models": [
           {
-            "name": "qwen_3_8b_fp8mixed.safetensors",
-            "url": "https://huggingface.co/Comfy-Org/flux2-klein-9B/resolve/main/split_files/text_encoders/qwen_3_8b_fp8mixed.safetensors",
+            "name": "qwen_3_8b.safetensors",
+            "url": "https://huggingface.co/Comfy-Org/vae-text-encorder-for-flux-klein-9b/resolve/main/split_files/text_encoders/qwen_3_8b.safetensors",
             "directory": "text_encoders"
           }
         ],
@@ -3354,7 +3243,7 @@
         }
       },
       "widgets_values": [
-        "qwen_3_8b_fp8mixed.safetensors",
+        "qwen_3_8b.safetensors",
         "flux2",
         "default"
       ]
@@ -3389,8 +3278,8 @@
         "Node name for S&R": "UNETLoader",
         "models": [
           {
-            "name": "flux-2-klein-9b-fp8.safetensors",
-            "url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-9b-fp8/resolve/main/flux-2-klein-9b-fp8.safetensors",
+            "name": "flux-2-klein-base-9b.safetensors",
+            "url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-base-9B/resolve/main/flux-2-klein-base-9b.safetensors",
             "directory": "diffusion_models"
           }
         ],
@@ -3408,7 +3297,7 @@
         }
       },
       "widgets_values": [
-        "flux-2-klein-9b-fp8.safetensors",
+        "flux-2-klein-base-9b.safetensors",
         "default"
       ]
     },
@@ -3582,12 +3471,12 @@
       "properties": {
         "cnr_id": "comfyui-image-saver",
         "ver": "1.22.0",
+        "Node name for S&R": "Image Saver Simple",
         "ue_properties": {
           "widget_ue_connectable": {},
           "input_ue_unconnectable": {},
           "version": "7.8"
-        },
-        "Node name for S&R": "Image Saver Simple"
+        }
       },
       "widgets_values": [
         "%time_%basemodelname_%seed",
@@ -3890,12 +3779,12 @@
       "properties": {
         "cnr_id": "comfyui-image-saver",
         "ver": "1.22.0",
+        "Node name for S&R": "Image Saver Simple",
         "ue_properties": {
           "widget_ue_connectable": {},
           "input_ue_unconnectable": {},
           "version": "7.8"
-        },
-        "Node name for S&R": "Image Saver Simple"
+        }
       },
       "widgets_values": [
         "%time_%basemodelname_%seed",
@@ -4042,12 +3931,12 @@
       "properties": {
         "cnr_id": "derfuu_comfyui_moddednodes",
         "ver": "1.0.1",
+        "Node name for S&R": "DF_Text",
         "ue_properties": {
           "widget_ue_connectable": {},
           "input_ue_unconnectable": {},
           "version": "7.6.2"
         },
-        "Node name for S&R": "DF_Text",
         "enableTabs": false,
         "tabWidth": 65,
         "tabXOffset": 10,
@@ -4104,12 +3993,12 @@
       "properties": {
         "cnr_id": "comfyui-kjnodes",
         "ver": "1.2.9",
+        "Node name for S&R": "JoinStrings",
         "ue_properties": {
           "widget_ue_connectable": {},
           "input_ue_unconnectable": {},
           "version": "7.6.2"
         },
-        "Node name for S&R": "JoinStrings",
         "enableTabs": false,
         "tabWidth": 65,
         "tabXOffset": 10,
@@ -4154,12 +4043,12 @@
       "properties": {
         "cnr_id": "derfuu_comfyui_moddednodes",
         "ver": "1.0.1",
+        "Node name for S&R": "DF_Text",
         "ue_properties": {
           "widget_ue_connectable": {},
           "input_ue_unconnectable": {},
           "version": "7.6.2"
         },
-        "Node name for S&R": "DF_Text",
         "enableTabs": false,
         "tabWidth": 65,
         "tabXOffset": 10,
@@ -4216,12 +4105,12 @@
       "properties": {
         "cnr_id": "comfyui-kjnodes",
         "ver": "1.2.9",
+        "Node name for S&R": "JoinStrings",
         "ue_properties": {
           "widget_ue_connectable": {},
           "input_ue_unconnectable": {},
           "version": "7.6.2"
         },
-        "Node name for S&R": "JoinStrings",
         "enableTabs": false,
         "tabWidth": 65,
         "tabXOffset": 10,
@@ -4278,12 +4167,12 @@
       "properties": {
         "cnr_id": "comfyui-kjnodes",
         "ver": "1.2.9",
+        "Node name for S&R": "JoinStrings",
         "ue_properties": {
           "widget_ue_connectable": {},
           "input_ue_unconnectable": {},
           "version": "7.6.2"
         },
-        "Node name for S&R": "JoinStrings",
         "enableTabs": false,
         "tabWidth": 65,
         "tabXOffset": 10,
@@ -4328,12 +4217,12 @@
       "properties": {
         "cnr_id": "derfuu_comfyui_moddednodes",
         "ver": "1.0.1",
+        "Node name for S&R": "DF_Text",
         "ue_properties": {
           "widget_ue_connectable": {},
           "input_ue_unconnectable": {},
           "version": "7.6.2"
         },
-        "Node name for S&R": "DF_Text",
         "enableTabs": false,
         "tabWidth": 65,
         "tabXOffset": 10,
@@ -4347,6 +4236,117 @@
       ],
       "color": "#432",
       "bgcolor": "#653"
+    },
+    {
+      "id": 157,
+      "type": "ImageScaleToTotalPixels",
+      "pos": [
+        -1289.751878288752,
+        -67.96584140798045
+      ],
+      "size": [
+        270,
+        106
+      ],
+      "flags": {},
+      "order": 31,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 230
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            235,
+            309,
+            339,
+            368
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.8.2",
+        "Node name for S&R": "ImageScaleToTotalPixels",
+        "enableTabs": false,
+        "tabWidth": 65,
+        "tabXOffset": 10,
+        "hasSecondTab": false,
+        "secondTabText": "Send Back",
+        "secondTabOffset": 80,
+        "secondTabWidth": 65,
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "area",
+        1.57,
+        64
+      ]
+    },
+    {
+      "id": 235,
+      "type": "ImageScaleToTotalPixels",
+      "pos": [
+        -1301.92026903693,
+        731.8946630934682
+      ],
+      "size": [
+        270,
+        106
+      ],
+      "flags": {},
+      "order": 34,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 352
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            353,
+            354,
+            363
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.8.2",
+        "Node name for S&R": "ImageScaleToTotalPixels",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        },
+        "enableTabs": false,
+        "tabWidth": 65,
+        "tabXOffset": 10,
+        "hasSecondTab": false,
+        "secondTabText": "Send Back",
+        "secondTabOffset": 80,
+        "secondTabWidth": 65
+      },
+      "widgets_values": [
+        "area",
+        1.57,
+        64
+      ]
     }
   ],
   "links": [
@@ -7509,10 +7509,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.5209868481924405,
+      "scale": 0.6303940863128544,
       "offset": [
-        1846.3395861864324,
-        918.106353066491
+        2210.1260198249774,
+        1221.1841650017468
       ]
     },
     "frontendVersion": "1.42.15",
