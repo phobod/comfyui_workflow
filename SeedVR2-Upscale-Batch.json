@@ -95,53 +95,6 @@
       "color": "#000000FF"
     },
     {
-      "id": 4,
-      "type": "ImageScaleBy",
-      "pos": [
-        550,
-        180
-      ],
-      "size": [
-        330,
-        90
-      ],
-      "flags": {},
-      "order": 5,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "image",
-          "type": "IMAGE",
-          "link": 3
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            4
-          ]
-        }
-      ],
-      "title": "⬇️  Downscale 4 better Upscale",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.20.1",
-        "Node name for S&R": "ImageScaleBy",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "version": "7.8",
-          "input_ue_unconnectable": {}
-        }
-      },
-      "widgets_values": [
-        "lanczos",
-        0.5
-      ],
-      "color": "#000000FF"
-    },
-    {
       "id": 5,
       "type": "SeedVR2VideoUpscaler",
       "pos": [
@@ -153,7 +106,7 @@
         400
       ],
       "flags": {},
-      "order": 4,
+      "order": 6,
       "mode": 0,
       "inputs": [
         {
@@ -184,7 +137,13 @@
       "title": "⬆️  SeedVR2 Upscaler",
       "properties": {
         "cnr_id": "seedvr2_videoupscaler",
-        "Node name for S&R": "SeedVR2VideoUpscaler"
+        "ver": "4490bd1f482e026674543386bb2a4d176da245b9",
+        "Node name for S&R": "SeedVR2VideoUpscaler",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
       },
       "widgets_values": [
         188483384,
@@ -204,53 +163,6 @@
       "color": "#000000FF"
     },
     {
-      "id": 6,
-      "type": "SeedVR2LoadDiTModel",
-      "pos": [
-        550,
-        770
-      ],
-      "size": [
-        330,
-        220
-      ],
-      "flags": {},
-      "order": 5,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "torch_compile_args",
-          "shape": 7,
-          "type": "TORCH_COMPILE_ARGS",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "name": "SEEDVR2_DIT",
-          "type": "SEEDVR2_DIT",
-          "links": [
-            5
-          ]
-        }
-      ],
-      "title": "🗂️  SeedVR2 Load DiT Model",
-      "properties": {
-        "cnr_id": "seedvr2_videoupscaler",
-        "Node name for S&R": "SeedVR2LoadDiTModel"
-      },
-      "widgets_values": [
-        "seedvr2_ema_7b_fp16.safetensors",
-        "cuda:0",
-        0,
-        false,
-        "cpu",
-        false,
-        "sdpa"
-      ],
-      "color": "#000000FF"
-    },
-    {
       "id": 7,
       "type": "SeedVR2LoadVAEModel",
       "pos": [
@@ -262,7 +174,7 @@
         300
       ],
       "flags": {},
-      "order": 6,
+      "order": 0,
       "mode": 0,
       "inputs": [
         {
@@ -284,7 +196,13 @@
       "title": "🧬  SeedVR2 Load VAE Model",
       "properties": {
         "cnr_id": "seedvr2_videoupscaler",
-        "Node name for S&R": "SeedVR2LoadVAEModel"
+        "ver": "4490bd1f482e026674543386bb2a4d176da245b9",
+        "Node name for S&R": "SeedVR2LoadVAEModel",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
       },
       "widgets_values": [
         "ema_vae_fp16.safetensors",
@@ -416,7 +334,7 @@
         58
       ],
       "flags": {},
-      "order": 2,
+      "order": 1,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -532,12 +450,12 @@
       "properties": {
         "cnr_id": "comfy-core",
         "ver": "0.3.51",
+        "Node name for S&R": "PreviewImage",
         "ue_properties": {
           "version": "7.0.1",
           "widget_ue_connectable": {},
           "input_ue_unconnectable": {}
-        },
-        "Node name for S&R": "PreviewImage"
+        }
       },
       "widgets_values": [],
       "color": "#222",
@@ -590,6 +508,106 @@
         0.01,
         0.2,
         4
+      ],
+      "color": "#000000FF"
+    },
+    {
+      "id": 4,
+      "type": "ImageScaleBy",
+      "pos": [
+        550,
+        180
+      ],
+      "size": [
+        330,
+        90
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 4,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 3
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            4
+          ]
+        }
+      ],
+      "title": "⬇️  Downscale 4 better Upscale",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.20.1",
+        "Node name for S&R": "ImageScaleBy",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "lanczos",
+        0.5
+      ],
+      "color": "#000000FF"
+    },
+    {
+      "id": 6,
+      "type": "SeedVR2LoadDiTModel",
+      "pos": [
+        550,
+        770
+      ],
+      "size": [
+        330,
+        220
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "torch_compile_args",
+          "shape": 7,
+          "type": "TORCH_COMPILE_ARGS",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "SEEDVR2_DIT",
+          "type": "SEEDVR2_DIT",
+          "links": [
+            5
+          ]
+        }
+      ],
+      "title": "🗂️  SeedVR2 Load DiT Model",
+      "properties": {
+        "cnr_id": "seedvr2_videoupscaler",
+        "ver": "4490bd1f482e026674543386bb2a4d176da245b9",
+        "Node name for S&R": "SeedVR2LoadDiTModel",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "seedvr2_ema_7b_fp16.safetensors",
+        "cuda:0",
+        0,
+        false,
+        "cpu",
+        false,
+        "sdpa"
       ],
       "color": "#000000FF"
     }
@@ -710,10 +728,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 1.2884080000000004,
+      "scale": 0.8800000000000001,
       "offset": [
-        43.04342807445429,
-        122.00733461493749
+        364.59463078351916,
+        94.4050689829339
       ]
     },
     "frontendVersion": "1.42.15",
