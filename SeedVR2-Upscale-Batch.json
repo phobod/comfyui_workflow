@@ -198,6 +198,13 @@
         "cnr_id": "seedvr2_videoupscaler",
         "ver": "4490bd1f482e026674543386bb2a4d176da245b9",
         "Node name for S&R": "SeedVR2LoadVAEModel",
+        "models": [
+          {
+            "name": "ema_vae_fp16.safetensors",
+            "url": "https://huggingface.co/numz/SeedVR2_comfyUI/resolve/main/ema_vae_fp16.safetensors",
+            "directory": "SEEDVR2"
+          }
+        ],
         "ue_properties": {
           "widget_ue_connectable": {},
           "version": "7.8",
@@ -594,6 +601,13 @@
         "cnr_id": "seedvr2_videoupscaler",
         "ver": "4490bd1f482e026674543386bb2a4d176da245b9",
         "Node name for S&R": "SeedVR2LoadDiTModel",
+        "models": [
+          {
+            "name": "seedvr2_ema_7b_fp16.safetensors",
+            "url": "https://huggingface.co/numz/SeedVR2_comfyUI/resolve/main/seedvr2_ema_7b_fp16.safetensors",
+            "directory": "SEEDVR2"
+          }
+        ],
         "ue_properties": {
           "widget_ue_connectable": {},
           "version": "7.8",
